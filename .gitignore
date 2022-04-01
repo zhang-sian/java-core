@@ -1,0 +1,36 @@
+.class
+
+## 包文件忽略
+*.war
+*.ear
+
+## kdiff3 忽略
+.orig
+
+# maven
+target/
+
+# eclipse ignore
+.settings/
+.project
+.classpatch
+
+# idea ignore
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# temp file 临时文件
+
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore 系统级的忽略
+.DS_Store
+Thumbs.db
+
